@@ -8,6 +8,9 @@ module.exports = function override(config, env) {
     rewireAliases({
       alias: {
         '@': '~/src',
+        common: '~/src/components/common',
+        specific: '~/src/components/specific',
+        containers: '~/src/containers',
       },
     }),
   );

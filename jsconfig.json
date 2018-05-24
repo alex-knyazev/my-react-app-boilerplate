@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "common/": ["./src/components/common/*"],
+      "specific": ["./src/components/specific/*"],
+      "containers": ["./src/containers/*"]
+    }
+  }
+}
