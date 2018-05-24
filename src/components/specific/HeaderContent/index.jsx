@@ -1,12 +1,11 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-
-import styles from './index.module.scss';
 
 import routes from '@/constants/routes';
 
-const Header = (props) => {
+import styles from './index.module.scss';
+
+const Header = () => {
   return (
     <div className={styles.header}>
       <ul>
@@ -17,7 +16,5 @@ const Header = (props) => {
     </div>
   );
 };
-
-Header.propTypes = {};
 
 export default Header;

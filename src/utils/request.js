@@ -1,4 +1,6 @@
-async function get(url, headersOptions = {}) {
+// here you can add your api caller
+
+async function get() {
   const requestResult = [
     'Витька Подберезкин',
     'Сашка Свистоплясов',
